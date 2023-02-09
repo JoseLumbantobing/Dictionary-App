@@ -60,41 +60,33 @@ body {
     background-color: #7116cc;
 }
 
-.result-flex {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin: 0 .5rem;
-}
-
 .word {
     color: #444;
     font-size: 2rem;
-}
-
-.sound {
-    font-size: 1.5rem;
-}
-
-.sound:hover {
-    color: #9a5acf;
-}
-
-.pronounce {
-    color: #888;
-    font-style: italic;
     margin-left: .5rem;
+    text-transform: capitalize;
+}
+
+.word-flex {
+    color: #888;
+    display: flex;
+    gap: .7rem;
+    margin-left: .5rem;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .means {
     margin: .4rem 0;
 }
 
-/* .result {
+.result {
     opacity: 1;
 }
 
-.fade {
+.result.fade {
     opacity: 0;
-    transition: opacity .5s;
-} */
+    transition: opacity 1s;
+}
