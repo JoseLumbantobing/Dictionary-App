@@ -18,7 +18,9 @@ searchBtn.addEventListener('click', function() {
                 <p class="means">${data[0].meanings[0].definitions[0].definition}</p>
                 <p class="exp">"${data[0].meanings[0].definitions[0].example || ''}"</p>
                 `;
-                
+            })
+            .catch(() => {
+                result.innerHTML = `<h2 class="error">Couldn't Find The Word!</h2>`;
                 result.classList.remove('fade');
         });
     inpWord.value = '';

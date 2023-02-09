@@ -95,3 +95,7 @@ body {
     border-left: 3px solid #7116cc;
     padding-left: .7rem;
 }
+
+.error {
+    text-align: center;
+}
