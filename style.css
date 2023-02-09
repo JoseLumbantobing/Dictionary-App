@@ -39,6 +39,10 @@ body {
     padding: .2rem .3rem;
 }
 
+.input-text::placeholder {
+    visibility: hidden;
+}
+
 #search-btn {
     background-color: #d57fdb;
     border: none;
@@ -77,6 +81,7 @@ body {
 }
 
 .pronounce {
+    color: #888;
     font-style: italic;
     margin-left: .5rem;
 }
