@@ -90,3 +90,8 @@ body {
     opacity: 0;
     transition: opacity 1s;
 }
+
+.exp {
+    border-left: 3px solid #7116cc;
+    padding-left: .7rem;
+}
